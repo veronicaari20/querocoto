@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#mapid { 
+  height: 1100px;
+  width: 100%;
+  border: 2px solid #BFBFBF;
+
+}
+
+
+body {
+  background-color:#E5E5E5;
+  color:black;
+  margin:0 4px 0 0;
+  border:15px solid;
+  font-family: sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+  li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+.italica {
+    font-style: arial, sans-serif;
+    font-weight: bold;
+    max-width: 100rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.lotelabel {
+    color: rgba(122,184,0);
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px 8px;
+    }
+
+
+
+.poly{ 
+  stroke: rgba(21, 9, 130, 0.942);
+  fill: none;
+  stroke-dasharray: 3,3; 
+  stroke-width: 3;  
+  }
+
+.polys{ 
+   stroke: rgba(34, 247, 10, 0.942);
+   fill: none;
+   stroke-dasharray: 3,3; 
+  stroke-width: 3;  
+}
+
+.dist{ 
+  stroke: rgba(240, 11, 11, 0.942);
+  fill:  #fffafa;
+  stroke-dasharray: 7,7; 
+ stroke-width: 3;  
+}
+
+
+.poly1{ 
+  stroke: rgba(214, 18, 18, 0.981);
+  fill:  #f09797;
+  stroke-dasharray: 3,3; 
+  stroke-width: 2;  
+}
+
+.poly2{ 
+  stroke: rgba(18, 82, 65, 0.942);
+  fill: rgba(230, 249, 244, 0.942);
+  stroke-dasharray: 2,2; 
+  stroke-width: 1;  
+}
+
+
+.line{ 
+   stroke: rgba(128, 100, 100, 0.942);
+  fill: none;
+  stroke-dasharray: 2,2; 
+  stroke-width: 1;  
+  }
+
+.vias{ 
+  stroke: rgb(0, 0, 0);
+  fill: rgba(255, 254, 254, 0.075);
+  stroke-width: 2;  
+  }
+
+/* .CC{ 
+  stroke: rgb(10, 233, 148);
+  fill: rgba(35, 146, 109, 0);
+  stroke-width: 2;  
+  } */
+
+.CC{ 
+  stroke: rgb(10, 233, 148);
+  fill: #09925baa;
+  stroke-width: 2;  
+  }
+
+.CN{
+  stroke: #c14ce8;
+  fill: #c654ecaa;
+  stroke-width: 2;
+}
+
+.ANP{
+  stroke: #0ac419;
+  fill: #29a30b;
+  stroke-width: 2;
+}
+
+.ZA{
+  stroke: #f0f407;
+  fill: #f0f407;
+  stroke-width: 2;
+}
+
+.map-title { 
+  transform: translate(-50%,20%);
+  position: fixed !important;
+  left: 50%;
+  text-align: center;
+  padding-left: 10px; 
+  padding-right: 10px; 
+  background: rgba(15, 179, 239, 0.75);
+  font-weight: bold;
+  font-size: 28px;
+}
+
+h1{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10px; 
+  padding-right: 10px; 
+  background: rgba(255,255,255,0.75);
+  color: rgba(122,184,0);
+  -webkit-text-stroke: 1px rgb(23, 83, 215);
+
+}
+
+h2{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10px; 
+  padding-right: 10px; 
+  background: rgba(255, 255, 255, 0.374);
+  color: rgba(122,184,0);
+  -webkit-text-stroke: 1px rgb(23, 83, 215);
+
+}
+
+
+h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10px; 
+  padding-right: 10px; 
+  background: rgba(255,255,255,0.75);
+  color: rgba(122,184,0);
+  -webkit-text-stroke: 1px rgb(23, 83, 215);
+
+}
+
+h4{
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 2, 17);
+
+}
+
+
+p {
+  font-size: 0.7rem;
+  color: #0c2c6d;
+  font-weight: bold;
+  font-family:cursive;
+}
+
+
+ph {
+  font-size: 0.85rem;
+  color: #183c89;
+  font-weight: bold;
+  font-family:cursive;
+}
+
+
+
+
+

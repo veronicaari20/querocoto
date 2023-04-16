@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa de catastro urbano</title>     
+
+    <!-- Enlace a biblioteca JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+    <!-- Enlace a hoja CSS de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    
+    <!-- Enlace a biblioteca JavaScript de Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>    
+
+    <!-- Enlace a complemento Leaflet-choropleth -->
+    <script src="js/choropleth.js"></script> 
+
+    <!-- Complemento Leaflet.markercluster -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
+
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script type="text/javascript" src="json/po_cajamarca.js"></script>		
+    <script type="text/javascript" src="json/distrito.js"></script>
+    <script type="text/javascript" src="json/provincia.js"></script>     
+    
+</head>
+
+<body>
+	<ul>
+	  <li><a href=index.html>Principal</a></li>
+	  <li><a class="active" href="base.html">Mapa Distrital</a></li>
+	  <li><a href="rural.html">Mapa de Predios Rurales</a></li>
+	  <li><a href=cartografia.html>Cartografia</a></li>
+     
+	</ul>
+   
+    <!-- Elemento div para contener el mapa Leaflet -->
+    <div id="mapid"></div>
+	
+
+    <!-- Código JavaScript para generar y manejar el mapa Leaflet -->
+    <script src="js/base.js"></script>	
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="cartografia.html">Cartografia</a></li>
+			<li><a href="rural.html">Mapa de Predios Rurales</a></li>
+		</ul>
+	</nav>
+</body>
+</html>	
